@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block head_title %} Homepage - {{ block.super }} {% endblock head_title %}
+
+{% block content %}
+
+{% include './snippets/greeting.html' %}
+
+<p>{{ request.user }} {{ request.method }} : {{ request.user.is_authenticated }}</p>
+<p>Total Website Visits: {{ total_visits }}  </p>
+<p>Total Page Visits: {{ page_visits }} </p>
+<p>Percentage Page Visits: {{ percentage_page_visits }}%</p>
+
+{% endblock content %}
