@@ -1,3 +1,5 @@
 django == 5.1.5
 gunicorn
 python-decouple
+psycopg[binary]
+dj-database-url
