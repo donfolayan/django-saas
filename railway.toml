@@ -5,5 +5,5 @@ watchPatterns = [
     "requirements.txt", 
     "src/**", 
     "railway.toml",
-    "Dockerfile",
+    ".Dockerfile",
 ]
