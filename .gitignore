@@ -1,3 +1,9 @@
+#Static Files
+local-cdn
+src/staticfiles
+src\staticfiles\vendors
+
+#envs
 venv
 .env
 
